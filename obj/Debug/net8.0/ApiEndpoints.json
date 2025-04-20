@@ -1,0 +1,73 @@
+[
+  {
+    "ContainingType": "ApiEscolaDanca.UserClass.UsuariosRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapearRotasUsuario\u003Eb__0_0",
+    "RelativePath": "usuarios/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "ApiEscolaDanca.UserClass.Add_Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEscolaDanca.UserClass.UsuariosRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapearRotasUsuario\u003Eb__0_1",
+    "RelativePath": "usuarios/{userIdFirebase}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userIdFirebase",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiEscolaDanca.UserClass.UsuariosRotas\u002B\u003C\u003Ec",
+    "Method": "\u003CMapearRotasUsuario\u003Eb__0_2",
+    "RelativePath": "usuarios/{userIdFirebase}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userIdFirebase",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dadosAtualizados",
+        "Type": "ApiEscolaDanca.UserClass.Update_Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
