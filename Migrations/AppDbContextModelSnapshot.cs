@@ -53,7 +53,7 @@ namespace ApiEscolaDanca.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios_Alunos");
+                    b.ToTable("Usuarios_Alunos", (string)null);
                 });
 #pragma warning restore 612, 618
         }

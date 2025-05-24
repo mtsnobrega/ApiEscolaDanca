@@ -1,5 +1,7 @@
 ﻿using ApiEscolaDanca.UserClass;
+using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace ApiEscolaDanca.Data
 {
@@ -13,9 +15,11 @@ namespace ApiEscolaDanca.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Configura a string de conexão com o banco de dados SQLite
+            // Configura a string de conexão com o banco de dados SQLServer
+            //optionsBuilder.UseSqlServer("Server = tcp:apiescoladancadbserver.database.windows.net; Authentication = Active Directory Default; Database = ApiEscolaDanca_db;");
             optionsBuilder.UseSqlServer("Server = localhost; Database = EscolaDancaDB; User Id = sa; Password = Fsi5154; Encrypt = True; TrustServerCertificate = True;");
             base.OnConfiguring(optionsBuilder);
+            
         }
 
     }

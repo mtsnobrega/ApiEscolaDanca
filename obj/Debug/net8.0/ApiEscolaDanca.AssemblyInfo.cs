@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEscolaDanca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18fce662fc9b585175e1a37a68773b81cc5e9fc1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6af93b4409bd41b9564052ccdc7d6fb446d4ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEscolaDanca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEscolaDanca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

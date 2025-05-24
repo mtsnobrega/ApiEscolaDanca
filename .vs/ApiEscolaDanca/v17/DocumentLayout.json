@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\userclass\\usuariosrotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:userclass\\usuariosrotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\migrations\\20250420023610_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:migrations\\20250420023610_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\userclass\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:userclass\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\userclass\\add_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:userclass\\add_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|c:\\projetomobilec#\\apiescoladanca\\userclass\\usuariosrotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D8579D0-DF6A-4F56-8FFF-4A8B2AD625AD}|ApiEscolaDanca.csproj|solutionrelative:userclass\\usuariosrotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,28 +51,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250420023610_Initial.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Migrations\\20250420023610_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250420023610_Initial.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Migrations\\20250420023610_Initial.cs",
+              "RelativeToolTip": "Migrations\\20250420023610_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:34:35.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\Usuarios.cs",
+              "RelativeDocumentMoniker": "UserClass\\Usuarios.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\Usuarios.cs",
+              "RelativeToolTip": "UserClass\\Usuarios.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:52:59.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:43:02.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add_Usuario.cs",
+              "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\Add_Usuario.cs",
+              "RelativeDocumentMoniker": "UserClass\\Add_Usuario.cs",
+              "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\Add_Usuario.cs",
+              "RelativeToolTip": "UserClass\\Add_Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:53:02.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuariosRotas.cs",
               "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\UsuariosRotas.cs",
               "RelativeDocumentMoniker": "UserClass\\UsuariosRotas.cs",
               "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\UserClass\\UsuariosRotas.cs",
               "RelativeToolTip": "UserClass\\UsuariosRotas.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA0wDQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wCIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:30:18.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\ProjetoMobileC#\\ApiEscolaDanca\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T23:26:17.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T22:13:37.251Z"
             }
           ]
         }

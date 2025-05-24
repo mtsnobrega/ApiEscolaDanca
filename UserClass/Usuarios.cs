@@ -10,6 +10,7 @@
         public string Email { get; private set; }
         public string Telefone { get; set; }
         public DateTime DataNascimento { get; set; }
+        //public string TipoUsuario { get; set; }
 
 
         public Usuarios() { }
@@ -23,6 +24,7 @@
             Email = email;
             Telefone = telefone;
             DataNascimento = datanasc;
+            //TipoUsuario = "Aluno";
         }
     }
 }

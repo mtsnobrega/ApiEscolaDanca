@@ -20,13 +20,15 @@ namespace ApiEscolaDanca.UserClass
                 {
                     return Results.Conflict("Usuário já existe");
                 }
-
+                else
+                {
                     var novoUsuario = new Usuarios(usuario.UserIdFirebase, usuario.Nome, usuario.CPF, usuario.Email, usuario.Telefone, usuario.DataNascimento);
-                
+
                     await context.Usuarios_Alunos.AddAsync(novoUsuario);
                     await context.SaveChangesAsync();
-                
+
                     return Results.Ok(novoUsuario);
+                }
             });
 
             //Read
@@ -34,7 +36,7 @@ namespace ApiEscolaDanca.UserClass
             {
                 var usuario = await context.Usuarios_Alunos
                     .Where(user => user.UserIdFirebase == userIdFirebase)
-                    .Select(user => new Read_Usuario(user.Nome, user.Email, user.Telefone))
+                    .Select(user => new Read_Usuario(user.Nome, user.Email, user.Telefone, user.CPF, user.DataNascimento))
                     .FirstOrDefaultAsync();
 
                 return usuario is not null
@@ -50,14 +52,15 @@ namespace ApiEscolaDanca.UserClass
 
                 if (usuario is null)
                     return Results.NotFound("Usuário não encontrado.");
-                usuario.Telefone = dadosAtualizados.Telefone;
+                else
+                {
+                    usuario.Telefone = dadosAtualizados.Telefone;
 
-                await context.SaveChangesAsync();
+                    await context.SaveChangesAsync();
 
-                return Results.Ok("Usuário atualizado com sucesso.");
+                    return Results.Ok("Usuário atualizado com sucesso.");
+                }
             });
-
-            //app.MapGet("usuarios", () => new Usuarios("111", "Matheus", "321", "mts@", "tele", new DateTime(2025, 4, 19)));
         }
     }
 }
